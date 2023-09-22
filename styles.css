@@ -1,0 +1,172 @@
+body,
+ul,
+li {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(143 188 143);
+}
+
+header {
+    background-color: rgb(225, 222, 199);
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    color: white;
+    text-shadow: 2px 1px 0px #8D6C9F;
+    width: 100%;
+    background-color: rgb(143 188 143);
+    display: flex;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+
+}
+
+.newItem {
+    padding: 30px 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: darkseagreen;
+}
+
+.banner {
+    height: 300px;
+    overflow: hidden;
+}
+
+.banner img {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.newItem {
+    background-color: rgb(225, 222, 199);
+    padding: 30px 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.newItem:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#newInput {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#newDesc {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#newPriority {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 10%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+.addBtn {
+    padding: 9px 10px;
+    background-color: rgb(68 121 109);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.addBtn:hover {
+    background-color: #2ab57c;
+    color: white;
+}
+
+.items {
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.close:hover {
+    color: #36f452;
+    font-weight: bolder;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 10px;
+    font-size: 18px;
+    transition: 0.2s;
+    text-align: center;
+}
+
+table{
+    background-color: white;
+    width: 80%;
+}
+
+tr:nth-child(odd){
+    background-color: #eee;
+}
+
+th:nth-child(1){
+    width: 10%;
+}
+
+tr:hover {
+    background: rgb(200, 199, 199);
+}
+section.img-frut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2pc;
+    background-color: white;
+}
+.bloco-frut>img{
+    width: 300px;
+    height: auto;
+}
+div.txt-frut{
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+h3{
+    font-weight: bold;
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+div.desc{
+    padding: 5pc;
+}

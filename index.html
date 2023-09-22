@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/phone.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Suporte Tecnico</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+    </style>
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <img style="width: 30px; height: 30px; padding: 10px;" src="img/phone.png" alt="" srcset="">
+            <h2>Suporte Tecnico</h2>
+        </div>
+    </header>
+
+    <section class="img-frut">
+        <div class="txt-frut">
+            <div class="desc">
+                <h3>Faça sua solicitação,</h3>
+                <p> Nosso time está pronto para te ajudar!</p>
+            </div>
+            <div class="bloco-frut">
+                <img style="width: 450px;" src="img/Bootgum_Support.gif" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+
+     <!-- Opções para adicionar um novo chamado -->
+    <section class="newItem">
+        <input type="text" id="newInput" placeholder="Nome:">
+        <input type="text" id="newDesc" placeholder="Descrição:">
+        <select id="newPriority"  required="required">
+            <option value=''>Prioridade</option>
+            <option value='Baixa'>Baixa</option>
+            <option value='Media'>Media</option>
+            <option value='Alta'>Alta</option>
+        </select> 
+        
+        <span onclick="newItem()" class="addBtn" >Enviar!</span>
+    </section>
+
+    <!-- Tabela com informações do chamado -->
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th>SRQ#</th>
+                <th>Nome</th>
+                <th>Descricao</th>
+                <th>Prioridade</th>
+                <th>Chamado Atendido</th>
+            </tr>
+        </table>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+
